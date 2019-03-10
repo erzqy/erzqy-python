@@ -1,0 +1,2 @@
+# erzqy-python
+Python scripts.
