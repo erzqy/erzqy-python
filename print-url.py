@@ -1,6 +1,8 @@
+from __future__ import unicode_literals
+
 import requests
 from sys import argv
 
-hasil = requests.session()
+ambil = requests.session()
 for url in argv[1:]:
-	print hasil.get(url).text 
+	print ambil.get(url).text.encode('utf-8')
