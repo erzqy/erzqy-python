@@ -10,4 +10,4 @@ def buatDaftar(isi, posisi = None):
     hasil += buatDaftar(isi, 0)
   return hasil
 
-print buatDaftar([1, 2, 3])
+print buatDaftar([1, 2, 3, 'h'])
